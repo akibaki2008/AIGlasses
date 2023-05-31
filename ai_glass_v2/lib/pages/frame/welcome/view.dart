@@ -2,10 +2,11 @@ import 'package:ai_glass_v2/common/style/color.dart';
 import 'package:ai_glass_v2/pages/frame/welcome/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
+import 'package:get/get.dart'; 
 
 import '../../../common/values/colors.dart';
 
+// Fromm GetView<name of controller> we can access variables from that class. 
 class WelcomePage extends GetView<WelcomeController> {
   const WelcomePage({super.key});
 
@@ -36,3 +37,5 @@ class WelcomePage extends GetView<WelcomeController> {
     );
   }
 }
+// the controller object used in line 35 gets created automatically when
+// we create the controller.dart controller meaning we can access shit
