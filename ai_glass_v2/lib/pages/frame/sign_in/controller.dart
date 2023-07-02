@@ -12,15 +12,14 @@ class SignInController extends GetxController {
   SignInController();
   final state = SignInState();
   //static const String googleClientId =
-      //"825389689824-0donc40unu790c6fm6c8ikgu3tjfv2j5.apps.googleusercontent.com";
+  //"825389689824-0donc40unu790c6fm6c8ikgu3tjfv2j5.apps.googleusercontent.com";
 //apiKey: 'AIzaSyA5_qEINGfIssms6b5-wEXVsqHKIi7ayOo',
-    //appId: '1:825389689824:web:e8c51aaf69f613a35c1985',
+  //appId: '1:825389689824:web:e8c51aaf69f613a35c1985',
   final GoogleSignIn _googleSignIn = GoogleSignIn(
     scopes: [
       "openid"
     ], // use my google account and the same password for it it used
     //clientId: googleClientId,
-    
   );
 
   void handleSignIn(String type) async {
