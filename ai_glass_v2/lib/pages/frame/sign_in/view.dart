@@ -12,7 +12,7 @@ class SignInPage extends GetView<SignInController> {
     return Container(
       margin: EdgeInsets.only(top: 100.h, bottom: 80.h),
       child: Text(
-        'Chatty .',
+        'AIGlass Co-Pilot .',
         textAlign: TextAlign.center,
         style: TextStyle(
           color: AppColors.primaryText,

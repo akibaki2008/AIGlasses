@@ -1,0 +1,17 @@
+final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['openid']);
+
+'final': This keyword indicatesd that '_googleSignIn' is a final variable,
+meaning it can be assigned a value only once and cannot be changed afterwards
+
+'GoogleSignIn': It refers to a class in the 'googloe_sin_in' package. This class provides a 
+way to authenticate users with Google Sign-In.
+
+'_googleSignIn': This is the variable name chosen to represent an instance of the GoogleSignIn
+class. The underscore prefix indicates that it's a private vairable, accessible only within
+the file it's defined in.
+
+'GoogleSignIn(scopes: ['openid']). This is a constructor call that creates an instance of the 
+'GoogleSignIn' class. The 'scopes' parameter is passed as an argument to the constructor, 
+specifying the authentication scopes requested for the sign-in process. In this case, the
+scope 'openid' is specified, which typically grants access to the user's basic profile information.
+

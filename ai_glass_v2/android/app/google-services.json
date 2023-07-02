@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825389689824",
+    "project_id": "aiglass-a3378",
+    "storage_bucket": "aiglass-a3378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825389689824:android:bf20a57480e7844b5c1985",
+        "android_client_info": {
+          "package_name": "com.example.ai_glass_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825389689824-ilnkitqnk5dqqq197u2a3e8kkt4q1rm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9_Kg8YMNsCpeAXpKw-MF5k7YnTDxF67E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825389689824-ilnkitqnk5dqqq197u2a3e8kkt4q1rm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -52,7 +52,7 @@ class AppPages {
       page: () => const MessagePage(),
       binding: MessageBinding(),
       middlewares: [
-        RouteAuthMiddleware(priority: 1),
+        RouteAuthMiddleware(priority: 1), // this gets called first to check after welcome page tries to load the messagepage.
       ],
     ),
 
